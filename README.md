@@ -24,12 +24,6 @@ Once everything was connected, we installed the required firmware (https://www.y
 
 <img src="Fotos%20Transversal%20project/Config_1.png" alt="Foto 2" width="500">
 
-### Note
-This is a summary of the parameters that must be configured:
-CAN_P1_DRIVER -> 1
-GPS_TYPE -> 9
-NTF_LED_TYPES -> 231
-BRD_SAFETY_DEFLT -> 0
 
 https://www.youtube.com/watch?v=8aF4e0XCMpo
  
