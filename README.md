@@ -1,8 +1,169 @@
 # Transversal-project-group-1
 Transversal project from group 1. Project made at EETAC as part of the master of drones.
 
-## Very Basics of the Drone and its Components
-Lorem ipsum dolorem
+## Very Basics of the Drone and its Components 
+
+When we started the transversal project, the first thing we had to understand was simply: what is a drone, and what are the main parts that make it fly? 
+
+A drone (or UAS) is basically a flying robot made of several subsystems that work together: the frame, the motors and propellers, the electronics, the sensors, the battery, and the software that controls everything.  
+
+The Hexsoon EDU450 is a quadcopter designed for education and research. Understanding this particular drone helped us connect the basic theory to a real system. 
+
+The EDU450 is built around a 450mm carbon fiber frame, which makes it lightweight but strong enough for training flights and small payloads. The frame follows the classic 'X' quadcopter layout, meaning it has four arms with one motor on each arm this layout is very common because it provides good stability and simple control 
+
+ 
+
+##Airframe (Structure) 
+
+The frame is the physical body of the drone. It's usually made of carbon fiber because it's strong and lightweight, its job is to hold everything together: motors, flight controller, battery, GPS, wiring, etc. 
+
+The frame of the EDU450 is made of Carbon fiber plates and arms. 
+
+During the first sessions, we noticed how rigid the material is.  
+
+This is important because it reduces vibrations that could affect the sensors. 
+
+The frame includes:  
+
+Central Plates for mounting the flight controller 
+
+Four arms for the motors 
+
+Landing gear 
+
+Space for the battery Underneath 
+
+ 
+
+##Propulsion system 
+
+This is the part that makes the drone fly 
+
+##Motors 
+
+The EDU450 uses brushless motors that are typical for medium-size quadcopters. 
+
+Each motor has a specific rotation direction (two clockwise, two counterclockwise), which is essential for stable flight. 
+
+##Propellers 
+
+The propellers are also matched to the motors, we learned that installing a propeller in the wrong direction would make the drone unable to lift off, so this detail is more important than it seems 
+
+ 
+
+##ESCs (Electronic speed controllers)  
+
+ESCs are small electronic boards that control how fast each motor spins. 
+
+They receive commands from the flight controller and adjust the motor speed instantly to keep the drone stable.  
+
+##Power System 
+
+The drone is powered by a LiPo battery. 
+
+These batteries are lightweight and can deliver high current (usually 4S {14.8V}), which provides enough power for the motors and electronics. 
+
+The battery is mounted under the frame using straps, and it connects to the power distirbution board that sends power to the ESCs and the flight controller. 
+
+##Autopilot 
+
+This is basically the brain of the drone. 
+
+The EDU450 is designed to work with open-source autopilots like Pixhawk, and it runs PX4 or ArduPilot Firmware 
+
+It includes: 
+
+IMU (accelerometer + gyroscope)  
+
+Magnetometer 
+
+Barometer 
+
+Microprocessor 
+
+This controller is mounted on vibration-damping foam or rubber to reduce noise from the motors.  
+
+We also connected: 
+
+GPS module 
+
+Telemetry radio 
+
+RC receiver 
+
+The flight controller reads all these sensors and constantly adjusts the motors to keep the drone stable.  
+
+It also receives commands from the pilot and executes them. 
+
+Navigation & Sensors 
+
+The GPS module is mounted on a small mast to reduce interference from electronics. 
+
+It provides positions, altitude, and heading. 
+
+ 
+
+Telemetry is done through a radio module that sends real-time data to QGroundControl.  
+
+ 
+
+ 
+
+##Raspberry Pi Integration (Optional) 
+
+This project also introduced the possibility of using a Raspberry Pi as a Companion computer. 
+
+This allows more advanced tasks like  
+
+Autonomous missions 
+
+Computer vision 
+
+Data logging 
+
+Custom scripts 
+
+ 
+
+##Difficulties we had with this Drone 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+##Why this Drone Was a Good Choice for the Project 
+
+ 
+
+The EDU450 Is ideal for learning because: 
+
+It's simple enough for beginners to understand the concept more. 
+
+Its modular and east to repair 
+
+Its supports professional autopilots 
+
+Its compatibale with open-source software 
+
+Its stable and safe for training flights 
+
+ 
+
+Working with this specific drone helped us understand how the theoretical components (motors, ESCs, Sensors etc.) look and behave in real life  
+
+ 
 
 ## Autopilot Configuration and Calibration
 
