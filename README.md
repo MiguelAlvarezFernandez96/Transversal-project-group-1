@@ -132,6 +132,8 @@ The main objective of this step of the transversal drone project was to assemble
 
 The transversal drone is a simple quad-copter layout; therefore, the assembly of the frame included the central body containing the power distribution board and the four arms connecting to the set of four brushless DC motors. The result of this step yields a drone frame as shown below:
 
+<img src="Fotos%20Transversal%20project/Config_1.png" alt="Foto 2" width="500">
+
 The assembly of the drone frame wasn’t particularly complicated, however, there were some key things to keep in mind: one, that the drone’s motors were correctly mounted making sure that they are spinning in the correct direction during flight, two, that the arms and frame were correctly oriented, and three, that there was sufficient space inside the frame for all the wiring to be well organized and functional. Note that the side with the orange arms was defined to be the front face of the drone.
 
 In the end, the first part of the drone frame assembly was completed without issue, and the assembly of the drone frame would continue in the second part focusing more on guidance and power systems.
