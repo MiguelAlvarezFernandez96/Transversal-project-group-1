@@ -22,6 +22,8 @@ https://ardupilot.org/planner/docs/mission-planner-installation.html
 
 Once everything was connected, we installed the required firmware (https://www.youtube.com/watch?v=MUiUbNqETsk). For this we need to connect the Pixhawk Orange Cube to the computer with Mission Planner and go to the setup to install the firmware "Orange cube Plus". When we had the firmware installed, we configured the necessary parameters. First we start with the Frame type. After applying the changes following the tutorial, we rebooted the autopilot to check that everything was working correctly. We verified that the LEDs turned on and that the buzzer produced a sound.
 
+<img src="Fotos%20Transversal%20project/Config_1.png" alt="Foto 2" width="500">
+
 ### Note
 This is a summary of the parameters that must be configured:
 CAN_P1_DRIVER -> 1
