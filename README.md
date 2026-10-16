@@ -203,6 +203,16 @@ youtube.com/watch?v=PNEuuCZnhX0&feature=youtu.be
 
 Overall, this activity helped us understand the basic configuration and calibration process of the Pixhawk Orange Cube and prepare it for use in the transversal project.
 
+## FRAME ASSEMBLY (PART 2)
+
+The aim of the second part of the frame assembly of the Transversal Project Drone was to finalize the assembly of the drone frame by placing and incorporating the radio receiver, autopilot system, GPS, optical sensor, telemetry radio, and the power supply while ensuring everything is properly connected and integrated. The result of this was a drone that after some final calibrations and some software configuration would be able to begin its maiden flight. 
+
+The first task was to fix the autopilot atop the frame using adhesive. Once in position (ensuring it is facing the correct direction) and connected to the power cables, the next device to be connected was the radio receiver. It was important for this step to ascertain that the device was specifically connected to the SBUS OUT and RCIN input ports of the autopilot system. 
+
+After that, the next devices to connect were the four DC motors to the input ports of the autopilot system. Keeping in mind the rotation direction and connections mentioned in part one of the frame assembly the motors were successfully connected. Following that, the GPS system was connected to the autopilot atop the frame using the CAN 1 input. Next was the telemetry radio, this was necessary to ensure proper communication between the drone and Mission Planner for both telemetry and flight plans. This device was connected to the Telem 1 port of the autopilot positioned within the central body with the antenna protruding out the side of the drone. 
+
+The last element that was incorporated was the battery. A setup of two Velcro straps was used to hang the large battery on the underside of the central body of the drone in a manner that facilitated the connection of the power supply to the rest of the systems on the drone. With all the basic elements of the drone assembled, it was time to move on to further calibrations of the drone.
+
 ## More Calibrations
 
 In this activity, we continued configuring the Pixhawk Orange Cube to prepare the drone for its first flight test.
