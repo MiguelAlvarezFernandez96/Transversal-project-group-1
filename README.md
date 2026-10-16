@@ -2,7 +2,7 @@
 Transversal project from group 1. Project made at EETAC as part of the master of drones.
 
 
-##Autopilot Configuration and Calibration
+## Autopilot Configuration and Calibration
 
 In this activity, we worked with the Pixhawk Orange Cube autopilot to learn how it works and how to prepare it for the drone project.
 
@@ -34,7 +34,7 @@ youtube.com/watch?v=PNEuuCZnhX0&feature=youtu.be
 
 Overall, this activity helped us understand the basic configuration and calibration process of the Pixhawk Orange Cube and prepare it for use in the transversal project.
 
-##More Calibrations
+## More Calibrations
 
 In this activity, we continued configuring the Pixhawk Orange Cube to prepare the drone for its first flight test.
 
@@ -53,7 +53,7 @@ https://www.youtube.com/watch?v=Af_ygwTi_s0
 
 We also learned the importance of checking the battery level before each flight, making sure that every battery cell has a sufficient charge.
 
-##Simulator, Geofences and Mission Planning 
+## Simulator, Geofences and Mission Planning 
 
 In this activity, we explored some of the main tools available in Mission Planner to prepare and test drone flights before operating the real platform.
 First, we learned about the SITL (Software In The Loop) simulator, which allows us to simulate the behaviour of the autopilot without using the physical drone. This is useful for testing flight plans and understanding how the drone is expected to behave before carrying out an actual flight.
@@ -66,5 +66,5 @@ https://www.youtube.com/watch?v=g-UfZ4gamq8
 
 Overall, this activity helped us understand how to plan autonomous flights and use simulation and geofencing tools to improve flight preparation and safety. 
 
-##Flight and log analysis 
+## Flight and log analysis 
 *TBD*
