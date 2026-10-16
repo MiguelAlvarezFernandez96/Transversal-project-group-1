@@ -163,7 +163,15 @@ Its stable and safe for training flights
 
 Working with this specific drone helped us understand how the theoretical components (motors, ESCs, Sensors etc.) look and behave in real life  
 
- 
+## Frame Assembly (Part 1)
+
+The main objective of this step of the transversal drone project was to assemble the frame and main flying elements of the drone our group will utilize going forward. 
+
+The transversal drone is a simple quad-copter layout; therefore, the assembly of the frame included the central body containing the power distribution board and the four arms connecting to the set of four brushless DC motors. The result of this step yields a drone frame as shown below:
+
+The assembly of the drone frame wasn’t particularly complicated, however, there were some key things to keep in mind: one, that the drone’s motors were correctly mounted making sure that they are spinning in the correct direction during flight, two, that the arms and frame were correctly oriented, and three, that there was sufficient space inside the frame for all the wiring to be well organized and functional. Note that the side with the orange arms was defined to be the front face of the drone.
+
+In the end, the first part of the drone frame assembly was completed without issue, and the assembly of the drone frame would continue in the second part focusing more on guidance and power systems.
 
 ## Autopilot Configuration and Calibration
 
@@ -203,7 +211,7 @@ youtube.com/watch?v=PNEuuCZnhX0&feature=youtu.be
 
 Overall, this activity helped us understand the basic configuration and calibration process of the Pixhawk Orange Cube and prepare it for use in the transversal project.
 
-## FRAME ASSEMBLY (PART 2)
+## Frame Assembly (Part 2)
 
 The aim of the second part of the frame assembly of the Transversal Project Drone was to finalize the assembly of the drone frame by placing and incorporating the radio receiver, autopilot system, GPS, optical sensor, telemetry radio, and the power supply while ensuring everything is properly connected and integrated. The result of this was a drone that after some final calibrations and some software configuration would be able to begin its maiden flight. 
 
