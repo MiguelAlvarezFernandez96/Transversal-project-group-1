@@ -16,6 +16,7 @@ The autopilot can also execute a flight plan autonomously. In this project, we w
 
 First, we connected the radio receiver, GPS module and buzzer to the autopilot. 
 https://www.youtube.com/watch?v=2Jm9zshM1Sc
+
 Then, we installed Mission Planner on the laptop, which we used as a ground station to configure the autopilot and communicate with it.
 https://ardupilot.org/planner/docs/mission-planner-installation.html
 
