@@ -123,45 +123,8 @@ Data logging
 
 Custom scripts 
 
- 
 
-##Difficulties we had with this Drone 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-##Why this Drone Was a Good Choice for the Project 
-
- 
-
-The EDU450 Is ideal for learning because: 
-
-It's simple enough for beginners to understand the concept more. 
-
-Its modular and east to repair 
-
-Its supports professional autopilots 
-
-Its compatibale with open-source software 
-
-Its stable and safe for training flights 
-
- 
-
-Working with this specific drone helped us understand how the theoretical components (motors, ESCs, Sensors etc.) look and behave in real life  
+During the project we had to deal with some missing or broken components that we had to wait for the teacher to change them. 
 
 ## Frame Assembly (Part 1)
 
