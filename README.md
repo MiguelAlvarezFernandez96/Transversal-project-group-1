@@ -13,7 +13,7 @@ The EDU450 is built around a 450mm carbon fiber frame, which makes it lightweigh
 
  
 
-##Airframe (Structure) 
+### Airframe (Structure) 
 
 The frame is the physical body of the drone. It's usually made of carbon fiber because it's strong and lightweight, its job is to hold everything together: motors, flight controller, battery, GPS, wiring, etc. 
 
@@ -35,29 +35,29 @@ Space for the battery Underneath
 
  
 
-##Propulsion system 
+### Propulsion system 
 
 This is the part that makes the drone fly 
 
-##Motors 
+### Motors 
 
 The EDU450 uses brushless motors that are typical for medium-size quadcopters. 
 
 Each motor has a specific rotation direction (two clockwise, two counterclockwise), which is essential for stable flight. 
 
-##Propellers 
+### Propellers 
 
 The propellers are also matched to the motors, we learned that installing a propeller in the wrong direction would make the drone unable to lift off, so this detail is more important than it seems 
 
  
 
-##ESCs (Electronic speed controllers)  
+### ESCs (Electronic speed controllers)  
 
 ESCs are small electronic boards that control how fast each motor spins. 
 
 They receive commands from the flight controller and adjust the motor speed instantly to keep the drone stable.  
 
-##Power System 
+### Power System 
 
 The drone is powered by a LiPo battery. 
 
@@ -65,7 +65,7 @@ These batteries are lightweight and can deliver high current (usually 4S {14.8V}
 
 The battery is mounted under the frame using straps, and it connects to the power distirbution board that sends power to the ESCs and the flight controller. 
 
-##Autopilot 
+### Autopilot 
 
 This is basically the brain of the drone. 
 
@@ -109,7 +109,7 @@ Telemetry is done through a radio module that sends real-time data to QGroundCon
 
  
 
-##Raspberry Pi Integration (Optional) 
+### Raspberry Pi Integration (Optional) 
 
 This project also introduced the possibility of using a Raspberry Pi as a Companion computer. 
 
