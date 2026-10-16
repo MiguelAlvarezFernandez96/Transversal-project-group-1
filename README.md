@@ -126,7 +126,7 @@ Custom scripts
 
 During the project we had to deal with some missing or broken components that we had to wait for the teacher to change them. 
 
-## RADIO CONTROL
+## Radio Control
 
 The central focus of this step in the project was to configure the radio controls allowing the Transversal Drone to be able to fly. Below is a list of all the required elements that were used in this step.
 
