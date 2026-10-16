@@ -1,6 +1,8 @@
 # Transversal-project-group-1
 Transversal project from group 1. Project made at EETAC as part of the master of drones.
 
+## Very Basics of the Drone and its Components
+Lorem ipsum dolorem
 
 ## Autopilot Configuration and Calibration
 
