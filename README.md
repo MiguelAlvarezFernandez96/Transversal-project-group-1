@@ -126,6 +126,14 @@ Custom scripts
 
 During the project we had to deal with some missing or broken components that we had to wait for the teacher to change them. 
 
+## RADIO CONTROL
+
+The central focus of this step in the project was to configure the radio controls allowing the Transversal Drone to be able to fly. Below is a list of all the required elements that were used in this step.
+
+The radio used to pilot the drone utilizes up to 24 channels that are multiplexed using flexible division multiplexing technique. The radio’s actuators can vary the signals emitted by a certain channel. The drone’s radio receiver picks up on the signals from different channels and converts them into PWM signals which then becomes the output of the receiver onto the associated channel. These PWM signals are necessary for the drone to be able to operate the drone’s brushless DC motors where the corresponding width’s of these signals will determine the rotational velocity of the motors at distinct time intervals.
+
+In order to configure the radio to achieve this end, the OpenTX software was used, allowing the group to create a model associating actuator inputs from the radio to a desired radio channel. …
+
 ## Frame Assembly (Part 1)
 
 The main objective of this step of the transversal drone project was to assemble the frame and main flying elements of the drone our group will utilize going forward. 
