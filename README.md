@@ -1,5 +1,6 @@
 # Transversal Drone Project (GROUP 1)
 Transversal project from group 1. Project made at EETAC as part of the master of drones.
+This groups is composed by Miguel Alvarez Fernandez, - , -
 
 ## Very Basics of the Drone and its Components 
 
