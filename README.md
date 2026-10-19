@@ -182,14 +182,20 @@ https://www.youtube.com/watch?v=8aF4e0XCMpo
  
 Next, we calibrated the accelerometer and compass to ensure that the autopilot could correctly estimate the drone's orientation and heading. 
 
+<img src="Fotos%20Transversal%20project/Compass_Calibration.png" alt="Compass" width="500">
+
 https://www.youtube.com/watch?v=slux0oX2Qig&feature=youtu.be 
 
 We also calibrated the radio and checked the minimum and maximum values. We made sure that all radio controls worked as intended.
+
+<img src="Fotos%20Transversal%20project/Radio_Calibration.png" alt="Radio" width="500">
 
 https://www.youtube.com/watch?v=0Ii1I8D2gro&feature=youtu.be 
 
 Finally, we configured the three flight modes using switch SB on the radio: Alt Hold, Loiter and RTL. Alt Hold allows the drone to maintain its altitude using its internal sensors, while Loiter uses GPS to help maintain its position. RTL is used to make the drone return to its home position. We also configured the RTL altitude to 7 metres, so that the drone climbs to the selected altitude before returning to the launch point.
 For the configuration we can check when the switch is in one position the corresponding flight mode is in colour green, this helps to make sure that we are configuring it correctly.
+
+<img src="Fotos%20Transversal%20project/Flight_Modes.png" alt="FMode" width="500">
 
 https://www.youtube.com/watch?v=PNEuuCZnhX0&feature=youtu.be 
 
@@ -231,6 +237,12 @@ https://www.youtube.com/watch?v=DGpoN0KlAYY&feature=youtu.be
 
 After this we test the motors independly and all together.
 
+
+
+https://github.com/user-attachments/assets/731258ab-1225-4bfe-8bda-f014d93e9ac4
+
+
+
 https://www.youtube.com/watch?v=w6N368HIncc
 
 During this test we encountered the problem that some of the rotors didn't response to the test. This was a problem of throttle used during test, just increasing the throttle value to 7% was enough to test correctly the "affected" rotors
@@ -269,6 +281,8 @@ https://github.com/user-attachments/assets/b809198a-2885-4f7a-8cb7-fa62cb7bc3e0
 
 The flight gonne without any issues, the next step was to upload the geofence to the drone. For this flight we made it with the other coleagues of the master, so we used a very small geofence.
 
+<img src="Fotos%20Transversal%20project/Geofance+plan.png" alt="Fence" width="500">
+
 This day we had problems that made us unable to us our computers/ground station and we had to use one provided from another student to make the flight. The main computer that we used didn't response well with the "Plan" tab, making unable to load to draw and load the geofence to the drone and for the other computers we just made small mistakes like missing one value of configuration that made it unable to connect to the radio control. Those are small mistakes that consume time but since we had a very limited time, the best option was that a student lend us his computer.
 
 The last we made was uploading a mission plan so the drone does it automatically. But we didn't do that yet, we just had a demostration from another group.
@@ -277,7 +291,7 @@ The last we made was uploading a mission plan so the drone does it automatically
 
 In this phase we learned the basics on building a drone, the importance on location sensors and how the ground station (computer) comunicates with the drone. We also learned the importante in some configurations and the meaning of some values or modes. 
 
-During the project we had some problems to follow correctly since most components were missing or broken, so when doing test the values and procedures were correct but still didn't worked. 
+During the project we had some problems to follow correctly since most components were missing or broken, so when doing test the values and procedures were correct but still didn't worked. Also the last day we had last moment problems and with the rush we couldn't correct them before flying with the geofence.
 
 At the end we manage to follow the tutorials and each step to a successfull flight. 
 
