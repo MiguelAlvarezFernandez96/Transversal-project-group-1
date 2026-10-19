@@ -154,14 +154,19 @@ The autopilot is also capable of generating the motor control signals to maintai
 We are gonna configure the SB switch to control the flight mode. Since the SB only have 3 positions, we configure 3 different mode: 
 
 Alt hold: Stabilizes in altitude using the internal barometer
+
 Loiter: Stabilizes in altitude, pitch and roll using the GPS (needs good GPS coverage)
+
 RTL (return to Launch): The drone will return directly to the launch position. First will ascend to a defined altitude.
+
 The autopilot can also execute a flight plan autonomously. In this project, we will configure the laptop as a ground station with the flight plan using Mission Planner.
 
 First, we connected the radio receiver, GPS module and buzzer to the autopilot. 
+
 https://www.youtube.com/watch?v=2Jm9zshM1Sc
 
 Then, we installed Mission Planner on the laptop, which we used as a ground station to configure the autopilot and communicate with it.
+
 https://ardupilot.org/planner/docs/mission-planner-installation.html
 
 Once everything was connected, we installed the required firmware (https://www.youtube.com/watch?v=MUiUbNqETsk). For this we need to connect the Pixhawk Orange Cube to the computer with Mission Planner and go to the setup to install the firmware "Orange cube Plus". When we had the firmware installed, we configured the necessary parameters. First we start with the Frame type. After applying the changes following the tutorial, we rebooted the autopilot to check that everything was working correctly. We verified that the LEDs turned on and that the buzzer produced a sound.
@@ -180,6 +185,7 @@ We also calibrated the radio and checked the minimum and maximum PWM values gene
 https://www.youtube.com/watch?v=0Ii1I8D2gro&feature=youtu.be 
 
 Finally, we configured the three flight modes using switch SB on the radio: Alt Hold, Loiter and RTL. Alt Hold allows the drone to maintain its altitude using its internal sensors, while Loiter uses GPS to help maintain its position. RTL is used to make the drone return to its home position. We also configured the RTL altitude to 7 metres, so that the drone climbs to the selected altitude before returning to the launch point.
+
 youtube.com/watch?v=PNEuuCZnhX0&feature=youtu.be 
 
 Overall, this activity helped us understand the basic configuration and calibration process of the Pixhawk Orange Cube and prepare it for use in the transversal project.
@@ -198,33 +204,56 @@ The last element that was incorporated was the battery. A setup of two Velcro st
 
 In this activity, we continued configuring the Pixhawk Orange Cube to prepare the drone for its first flight test.
 
-First, we configured the telemetry radio to establish communication between the drone and the ground station. https://www.youtube.com/watch?v=6xqEbOzUQSo&feature=youtu.be 
+First, we configured the telemetry radio to establish communication between the drone and the ground station. 
+
+https://www.youtube.com/watch?v=6xqEbOzUQSo&feature=youtu.be 
 
 Then, we calibrated the ESCs (Electronic Speed Controllers) and configured the servo functions, the failsafe system and the arming and disarming procedures.
+
 https://www.youtube.com/watch?v=wO8QJQpC3IM&feature=youtu.be 
 
 The failsafe configuration was particularly important because it determines how the autopilot reacts when something goes wrong. We configured the system to return to the home position if the drone loses contact with the radio. We also adjusted the throttle PWM threshold to avoid arming errors related to the failsafe settings.
 
 After that, we configured the battery monitor to check the battery status during operation. We also tested the motors to verify that they responded correctly to the autopilot commands. 
+
 youtube.com/watch?v=DGpoN0KlAYY&feature=youtu.be
 
-Before completing the setup, we loaded the default parameters for our drone frame https://www.youtube.com/watch?v=9pilQ3uT8mA&feature=youtu.be and performed the final configuration checks.
+
+During this test we encountered the problem that some of the rotors didn't response to the test. This was a problem of power used during test, just increasing the power value 2% was enough to test correctly the affected rotors
+
+Before completing the setup, we loaded the default parameters for our drone frame  and performed the final configuration checks.
+
+https://www.youtube.com/watch?v=9pilQ3uT8mA&feature=youtu.be
 https://www.youtube.com/watch?v=Af_ygwTi_s0 
 
-We also learned the importance of checking the battery level before each flight, making sure that every battery cell has a sufficient charge.
+It's important to check the battery level before each flight, making sure that every battery cell has a sufficient charge.
 
 ## Simulator, Geofences and Mission Planning 
 
 In this activity, we explored some of the main tools available in Mission Planner to prepare and test drone flights before operating the real platform.
 First, we learned about the SITL (Software In The Loop) simulator, which allows us to simulate the behaviour of the autopilot without using the physical drone. This is useful for testing flight plans and understanding how the drone is expected to behave before carrying out an actual flight.
+
 https://www.youtube.com/watch?v=1BPK29MOLlg&feature=youtu.be 
 
-Next, we explored the geofence function, which allows us to define geographical limits for the drone's operating area. We learned how to create a boundary on the map so that the autopilot can detect when the drone leaves the permitted area. We also explored different options, including circular geofences, fence margins, the actions triggered when a boundary is breached, and the difference between inclusion and exclusion zones.
+Next, we explored the geofence function, which allows us to define geographical limits for the drone's operating area. We learned how to create a boundary on the map so that the autopilot can detect when the drone is gonna leave the permitted area. We can configure the drone with different actions when leaving the area, like RTL or land. In our case we put the option to brake or land, so the drone stops before leaving the area but if anyway it leaves the area, it lands.
 
-Finally, we worked with the mission planning tools in Mission Planner. We learned how to create a flight plan by adding waypoints, upload the mission to the autopilot and simulate its execution. We also examined what happens when the drone crosses the geofence boundaries.
+Finally, we worked with the mission planning tools in Mission Planner. We learned how to create a flight plan by adding waypoints, upload the mission to the autopilot and simulate its execution. We also examined what happens when the drone tries to cross the geofence boundaries, it decrease the speed and avoid getting outside as expected.
+
 https://www.youtube.com/watch?v=g-UfZ4gamq8 
 
 Overall, this activity helped us understand how to plan autonomous flights and use simulation and geofencing tools to improve flight preparation and safety. 
 
-## Flight and log analysis 
-*TBD*
+## Flight in the drone lab
+
+Now everything is ready to start the flight, we go to the drone center and first we do just a fast flight, to make sure that it flies. Before flying one of the compasses wasn't responding, lucky for us, we had 2 and the other one was working correcly.
+
+The flight gonne without any issues, the next step was to upload the geofence to the drone. For this flight we made it with the other coleagues of the master, so we used a very small geofence.
+
+This day we had problems that made us unable to us our computers/ground station and we had to use one provided from another student to make the flight. The main computer that we used didn't response well with the "Plan" tab, making unable to load to draw and load the geofence to the drone and for the other computers we just made small mistakes like missing one value of configuration that made it unable to connect to the radio control. Those are small mistakes that consume time but since we had a very limited time, the best option was that a student lend us his computer.
+
+The last we made was uploading a mission plan so the drone does it automatically. But we didn't do that yet, we just had a demostration from another group.
+
+## Considerations for phase 2
+
+
+
