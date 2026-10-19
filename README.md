@@ -2,6 +2,8 @@
 Transversal project from group 1. Project made at EETAC as part of the master of drones.
 This groups is composed by Miguel Alvarez Fernandez, - , -
 
+<img src="Fotos%20Transversal%20project/Drone_Main.png" alt="Foto 2" width="500">
+
 ## Very Basics of the Drone and its Components 
 
 When we started the transversal project, the first thing we had to understand was simply: what is a drone, and what are the main parts that make it fly? 
