@@ -1,4 +1,4 @@
-<img width="353" height="278" alt="image" src="https://github.com/user-attachments/assets/e89d2974-f39f-4d6c-8fa1-14ce6c429e54" /># Transversal Drone Project (GROUP 1)
+# Transversal Drone Project (GROUP 1)
 Transversal project from group 1. Project made at EETAC as part of the master of drones.
 This groups is composed by Miguel Alvarez Fernandez, - , -
 
