@@ -273,6 +273,14 @@ This day we had problems that made us unable to us our computers/ground station 
 
 The last we made was uploading a mission plan so the drone does it automatically. But we didn't do that yet, we just had a demostration from another group.
 
+## Personal reflection Phase 1
+
+In this phase we learned the basics on building a drone, the importance on location sensors and how the ground station (computer) comunicates with the drone. We also learned the importante in some configurations and the meaning of some values or modes. 
+
+During the project we had some problems to follow correctly since most components were missing or broken, so when doing test the values and procedures were correct but still didn't worked. 
+
+At the end we manage to follow the tutorials and each step to a successfull flight. 
+
 ## Considerations for phase 2
 
 During phase 2 we gonna install and use a camera. Most of the second part of phase 2 we gonna use what we are learning in Payload, from the basic OpenCV image manipulation to Color-based object detection, in the near future we will know more things that we will learn in Payload that will be applied in the project like image stitching.
