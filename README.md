@@ -169,10 +169,11 @@ Then, we installed Mission Planner on the laptop, which we used as a ground stat
 
 https://ardupilot.org/planner/docs/mission-planner-installation.html
 
-Once everything was connected, we installed the required firmware (https://www.youtube.com/watch?v=MUiUbNqETsk). For this we need to connect the Pixhawk Orange Cube to the computer with Mission Planner and go to the setup to install the firmware "Orange cube Plus". When we had the firmware installed, we configured the necessary parameters. First we start with the Frame type. After applying the changes following the tutorial, we rebooted the autopilot to check that everything was working correctly. We verified that the LEDs turned on and that the buzzer produced a sound.
+Once everything was connected, we installed the required firmware (https://www.youtube.com/watch?v=MUiUbNqETsk). For this we need to connect the Pixhawk Orange Cube to the computer with Mission Planner and go to the setup to install the firmware "Orange cube Plus". When we had the firmware installed, we configured the necessary parameters. First we start with the Frame type. 
 
 <img src="Fotos%20Transversal%20project/Config_1.png" alt="Foto 2" width="500">
 
+After applying the changes following the tutorial, we rebooted the autopilot to check that everything was working correctly. We verified that the LEDs turned on and that the buzzer produced a sound.
 
 https://www.youtube.com/watch?v=8aF4e0XCMpo
  
@@ -247,6 +248,8 @@ Overall, this activity helped us understand how to plan autonomous flights and u
 
 Now everything is ready to start the flight, we go to the drone center and first we do just a fast flight, to make sure that it flies. Before flying one of the compasses wasn't responding, lucky for us, we had 2 and the other one was working correcly.
 
+<video src="./Videos%20%Transversal%20%project/Flight%20%1.mp4" controls width="800"></video>
+
 The flight gonne without any issues, the next step was to upload the geofence to the drone. For this flight we made it with the other coleagues of the master, so we used a very small geofence.
 
 This day we had problems that made us unable to us our computers/ground station and we had to use one provided from another student to make the flight. The main computer that we used didn't response well with the "Plan" tab, making unable to load to draw and load the geofence to the drone and for the other computers we just made small mistakes like missing one value of configuration that made it unable to connect to the radio control. Those are small mistakes that consume time but since we had a very limited time, the best option was that a student lend us his computer.
@@ -255,5 +258,7 @@ The last we made was uploading a mission plan so the drone does it automatically
 
 ## Considerations for phase 2
 
+During phase 2 we gonna install and use a camera. Most of the second part of phase 2 we gonna use what we are learning in Payload, from the basic OpenCV image manipulation to Color-based object detection, in the near future we will know more things that we will learn in Payload that will be applied in the project like image stitching.
 
+We also gonna interact with the autopilot to retrieve some data. This data might be related with the positioning that we learned in Unmaned Aircraft since one this that we learned that is important when doing a photogrametry project is to know where you are when doing the photos. Since the battery and the rotors are already installed and provided, I don't think we gonna apply the first temary of the Unmaned Aircraft subject.
 
