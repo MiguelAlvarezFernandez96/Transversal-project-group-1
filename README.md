@@ -2,7 +2,7 @@
 Transversal project from group 1. Project made at EETAC as part of the master of drones.
 This groups is composed by Miguel Alvarez Fernandez, - , -
 
-<img src="Fotos%20Transversal%20project/Drone_Main.png" alt="Foto 2" width="500">
+<img src="Fotos%20Transversal%20project/Drone_Main.jpeg" alt="Drone_Main" width="500">
 
 ## Very Basics of the Drone and its Components 
 
