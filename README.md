@@ -248,7 +248,7 @@ Overall, this activity helped us understand how to plan autonomous flights and u
 
 Now everything is ready to start the flight, we go to the drone center and first we do just a fast flight, to make sure that it flies. Before flying one of the compasses wasn't responding, lucky for us, we had 2 and the other one was working correcly.
 
-<video src="./Videos%20%Transversal%20%project/Flight%20%1.mp4" controls width="800"></video>
+<video src="Videos%20%Transversal%20%project/Flight%20%1.mp4" controls width="800"></video>
 
 The flight gonne without any issues, the next step was to upload the geofence to the drone. For this flight we made it with the other coleagues of the master, so we used a very small geofence.
 
