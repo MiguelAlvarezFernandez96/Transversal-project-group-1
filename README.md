@@ -182,7 +182,7 @@ https://www.youtube.com/watch?v=0Ii1I8D2gro&feature=youtu.be
 Finally, we configured the three flight modes using switch SB on the radio: Alt Hold, Loiter and RTL. Alt Hold allows the drone to maintain its altitude using its internal sensors, while Loiter uses GPS to help maintain its position. RTL is used to make the drone return to its home position. We also configured the RTL altitude to 7 metres, so that the drone climbs to the selected altitude before returning to the launch point.
 For the configuration we can check when the switch is in one position the corresponding flight mode is in colour green, this helps to make sure that we are configuring it correctly.
 
-<img src="Fotos%20Transversal%20project/Flight_Modes.png" alt="FMode" width="500">
+<img src="Fotos%20Transversal%20project/Flight_modes.png" alt="FMode" width="500">
 
 https://www.youtube.com/watch?v=PNEuuCZnhX0&feature=youtu.be 
 
