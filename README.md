@@ -88,15 +88,11 @@ Telemetry is done through a radio module that sends real-time data to QGroundCon
 
 This project also introduced the possibility of using a Raspberry Pi as a Companion computer. 
 
-This allows more advanced tasks like  
-
-Autonomous missions 
-
-Computer vision 
-
-Data logging 
-
-Custom scripts 
+This allows more advanced tasks like:
+* Autonomous missions 
+* Computer vision 
+* Data logging 
+* Custom scripts 
 
 During the project we had to deal with some missing or broken components that we had to wait for the professor to change them. 
 
