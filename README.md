@@ -1,6 +1,6 @@
 # Transversal Drone Project (GROUP 1)
 Transversal project from group 1. Project made at EETAC as part of the master of drones.
-This groups is composed by Miguel Alvarez Fernandez, Aidan Cuadra Madrid, and  Marawan ... .
+This groups is composed by Miguel Alvarez Fernandez, Aidan Cuadra Madrid, and  Marawan.
 
 <img src="Fotos%20Transversal%20project/Drone_Main.jpeg" alt="Drone_Main" width="500">
 
@@ -13,8 +13,6 @@ A drone (or UAS) is basically a flying robot made of several subsystems that wor
 The Hexsoon EDU450 is a quadcopter designed for education and research. Understanding this particular drone helped us connect the basic theory to a real system. 
 
 The EDU450 is built around a 450mm carbon fiber frame, which makes it lightweight but strong enough for training flights and small payloads. The frame follows the classic 'X' quadcopter layout, meaning it has four arms with one motor on each arm this layout is very common because it provides good stability and simple control 
-
- 
 
 ### Airframe (Structure) 
 
@@ -36,8 +34,6 @@ Landing gear
 
 Space for the battery Underneath 
 
- 
-
 ### Propulsion system 
 
 This is the part that makes the drone fly 
@@ -51,8 +47,6 @@ Each motor has a specific rotation direction (two clockwise, two counterclockwis
 ### Propellers 
 
 The propellers are also matched to the motors, we learned that installing a propeller in the wrong direction would make the drone unable to lift off, so this detail is more important than it seems 
-
- 
 
 ### ESCs (Electronic speed controllers)  
 
@@ -104,13 +98,7 @@ The GPS module is mounted on a small mast to reduce interference from electronic
 
 It provides positions, altitude, and heading. 
 
- 
-
 Telemetry is done through a radio module that sends real-time data to QGroundControl.  
-
- 
-
- 
 
 ### Raspberry Pi Integration (Optional) 
 
@@ -126,8 +114,7 @@ Data logging
 
 Custom scripts 
 
-
-During the project we had to deal with some missing or broken components that we had to wait for the teacher to change them. 
+During the project we had to deal with some missing or broken components that we had to wait for the professor to change them. 
 
 ## Radio Control
 
