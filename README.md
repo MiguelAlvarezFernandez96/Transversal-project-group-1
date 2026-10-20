@@ -18,21 +18,15 @@ The EDU450 is built around a 450mm carbon fiber frame, which makes it lightweigh
 
 The frame is the physical body of the drone. It's usually made of carbon fiber because it's strong and lightweight, its job is to hold everything together: motors, flight controller, battery, GPS, wiring, etc. 
 
-The frame of the EDU450 is made of Carbon fiber plates and arms. 
-
-During the first sessions, we noticed how rigid the material is.  
-
-This is important because it reduces vibrations that could affect the sensors. 
-
-The frame includes:  
-
-Central Plates for mounting the flight controller 
-
-Four arms for the motors 
-
-Landing gear 
-
-Space for the battery Underneath 
+* The frame of the EDU450 is made of Carbon fiber plates and arms. 
+* During the first sessions, we noticed how rigid the material is.  
+* This is important because it reduces vibrations that could affect the sensors.
+  
+## The frame includes:  
+* Central Plates for mounting the flight controller 
+* Four arms for the motors 
+* Landing gear 
+* Space for the battery Underneath 
 
 ### Propulsion system 
 
@@ -70,36 +64,26 @@ The EDU450 is designed to work with open-source autopilots like Pixhawk, and it 
 
 It includes: 
 
-IMU (accelerometer + gyroscope)  
-
-Magnetometer 
-
-Barometer 
-
-Microprocessor 
+* IMU (accelerometer + gyroscope)  
+* Magnetometer 
+* Barometer 
+* Microprocessor 
 
 This controller is mounted on vibration-damping foam or rubber to reduce noise from the motors.  
 
-We also connected: 
+### We also connected: 
 
-GPS module 
-
-Telemetry radio 
-
-RC receiver 
-
+* GPS module 
+* Telemetry radio 
+* RC receiver 
 The flight controller reads all these sensors and constantly adjusts the motors to keep the drone stable.  
-
 It also receives commands from the pilot and executes them. 
 
-Navigation & Sensors 
+### Navigation & Sensors 
 
 The GPS module is mounted on a small mast to reduce interference from electronics. 
-
 It provides positions, altitude, and heading. 
-
 Telemetry is done through a radio module that sends real-time data to QGroundControl.  
-
 ### Raspberry Pi Integration (Optional) 
 
 This project also introduced the possibility of using a Raspberry Pi as a Companion computer. 
@@ -129,7 +113,7 @@ In order to configure the radio to achieve this end, the OpenTX software was use
 # Introduction
 This was our first hands-on session with the drone we will assemble and fly during the transversal project. Unboxing the Hexsoon EDU450 made everything feel more real. Seeing the actual components helped us understand how the drone is built and how each part fits into the final system.
 
-# What was inside the Box 
+# 📂What was inside the Box📂 
 When we open the box, everything needed to fly a drone was there, from the fiber plates and the motors to the arms and screws, we took our time to go through each item carefully.
 
 inside was:
@@ -168,7 +152,7 @@ The first thing we noticed was how light the carbon fiber plates were. The aerof
 
 The motors felt solid, and the propellers were clearly marked for rotation direction. The PDB looked more complex than we imagined, with many pads and outputs, so we knew we had to be careful with it later.
 
-# 🧰 Component Inspection
+# 🧰Component Inspection🧰
 Before touching anything, we inspected each part slowly to understand what we were dealing with.
 
 ## Motors
@@ -186,7 +170,7 @@ The plates had precise holes and clean edges. We checked them for any cracks or 
 ## PDB
 The PDB‑40A had multiple outputs and solder pads. It looked intimidating at first, but everything was in good condition.
 
-# 🔌 Quick Pre‑Assembly Check
+# 🔌Quick Pre‑Assembly Check🔌
 Before starting assembly, we did a simple check:
 * Verified ESC connectors
 * Checked motor connectors
@@ -195,7 +179,7 @@ Before starting assembly, we did a simple check:
 * Confirmed nothing was damaged
 * Everything looked fine and ready for assembly.
 
-# 🎓 Reflection
+# 🎓Reflection🎓
 Unboxing the EDU450 was more interesting than we expected. Seeing the real components helped us understand the drone much better than just reading theory. The frame, motors, ESCs, and PDB all looked more serious and professional than we imagined, and it made us appreciate how much engineering goes into even a simple quadcopter.
 
 This step also taught us how important organization is. If we mixed up screws or didn’t understand how the ESCs fit inside the arms, assembly would be much harder. After unboxing, we felt more confident and ready for the next steps: frame assembly, wiring, and sensor calibration.
