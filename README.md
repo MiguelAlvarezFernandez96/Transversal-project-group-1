@@ -124,6 +124,82 @@ The radio used to pilot the drone utilizes up to 24 channels that are multiplexe
 
 In order to configure the radio to achieve this end, the OpenTX software was used, allowing the group to create a model associating actuator inputs from the radio to a desired radio channel. …
 
+## 📦Unboxing the Hexsoon EDU450📦
+
+# Introduction
+This was our first hands-on session with the drone we will assemble and fly during the transversal project. Unboxing the Hexsoon EDU450 made everything feel more real. Seeing the actual components helped us understand how the drone is built and how each part fits into the final system.
+
+# What was inside the Box 
+When we open the box, everything needed to fly a drone was there, from the fiber plates and the motors to the arms and screws, we took our time to go through each item carefully.
+
+inside was:
+* Main top carbon fiber plate
+* Main bottom carbon fiber plate
+* 4 aerofoil arms (teardrop shape, slightly tilted upward)
+* Motor holder top pieces
+* Motor holder bottom pieces
+* Landing gear
+* All screws, nuts, and joints needed for assembly
+  
+  ## Propulsion System
+* 4× brushless motors (HS2216 920KV)
+* 4× propellers (T1045II)
+* 4× ESCs (20A)
+  
+  ## Power System
+* PDB‑40A (Power Distribution Board)
+* ESC pads
+* 5V output
+* 12V output
+
+## Accessories
+* Cable ties
+* Mounting hardware
+* LED lamp (depending on kit version)
+  
+## Not included (but required later)
+* Autopilot (Cube or similar)
+* LiPo battery
+* RC transmitter
+Everything was packed in a way that made it easy to identify each part without mixing anything.
+
+# 🔍First Impressions🔍
+The first thing we noticed was how light the carbon fiber plates were. The aerofoil arms looked more “aerodynamic” than we expected, and the ESCs were designed to fit inside the arms, which surprised us at first.
+
+The motors felt solid, and the propellers were clearly marked for rotation direction. The PDB looked more complex than we imagined, with many pads and outputs, so we knew we had to be careful with it later.
+
+# 🧰 Component Inspection
+Before touching anything, we inspected each part slowly to understand what we were dealing with.
+
+## Motors
+All four motors looked identical, but we noticed later the rotation direction that would matter later for the assembly.
+
+## Propellers
+The propellers came in CW and CCW pairs. We made sure not to mix them.
+
+## ESCs
+The ESCs were small and lightweight. We realized they would be hidden inside the arms, which made cable routing important.
+
+## Frame Plates
+The plates had precise holes and clean edges. We checked them for any cracks or defects.
+
+## PDB
+The PDB‑40A had multiple outputs and solder pads. It looked intimidating at first, but everything was in good condition.
+
+# 🔌 Quick Pre‑Assembly Check
+Before starting assembly, we did a simple check:
+* Verified ESC connectors
+* Checked motor connectors
+* Looked for missing screws
+* Checked cable quality
+* Confirmed nothing was damaged
+* Everything looked fine and ready for assembly.
+
+# 🎓 Reflection
+Unboxing the EDU450 was more interesting than we expected. Seeing the real components helped us understand the drone much better than just reading theory. The frame, motors, ESCs, and PDB all looked more serious and professional than we imagined, and it made us appreciate how much engineering goes into even a simple quadcopter.
+
+This step also taught us how important organization is. If we mixed up screws or didn’t understand how the ESCs fit inside the arms, assembly would be much harder. After unboxing, we felt more confident and ready for the next steps: frame assembly, wiring, and sensor calibration.
+
 ## Frame Assembly (Part 1)
 
 The main objective of this step of the transversal drone project was to assemble the frame and main flying elements of the drone our group will utilize going forward. 
