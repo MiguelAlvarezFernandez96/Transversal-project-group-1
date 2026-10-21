@@ -1,10 +1,10 @@
-# Transversal Drone Project (GROUP 1)
+# 📡Transversal Drone Project (GROUP 1)📡
 Transversal project from group 1. Project made at EETAC as part of the master of drones.
 This groups is composed by Miguel Alvarez Fernandez, Aidan Cuadra Madrid, and  Marawan El Mozy.
 
 <img src="Fotos%20Transversal%20project/Drone_Main.jpeg" alt="Drone_Main" width="500">
 
-## Very Basics of the Drone and its Components 
+## 🛩️Very Basics of the Drone and its Components🛩️
 
 When we started the transversal project, the first thing we had to understand was simply: what is a drone, and what are the main parts that make it fly? 
 
@@ -14,7 +14,7 @@ The Hexsoon EDU450 is a quadcopter designed for education and research. Understa
 
 The EDU450 is built around a 450mm carbon fiber frame, which makes it lightweight but strong enough for training flights and small payloads. The frame follows the classic 'X' quadcopter layout, meaning it has four arms with one motor on each arm this layout is very common because it provides good stability and simple control 
 
-### Airframe (Structure) 
+### ⚙️Airframe (Structure)⚙️ 
 
 The frame is the physical body of the drone. It's usually made of carbon fiber because it's strong and lightweight, its job is to hold everything together: motors, flight controller, battery, GPS, wiring, etc. 
 
@@ -28,27 +28,27 @@ The frame is the physical body of the drone. It's usually made of carbon fiber b
 * Landing gear 
 * Space for the battery Underneath 
 
-### Propulsion system 
+### ⚡Propulsion system⚡
 
 This is the part that makes the drone fly 
 
-### Motors 
+### ⚙️Motors⚙️
 
 The EDU450 uses brushless motors that are typical for medium-size quadcopters. 
 
 Each motor has a specific rotation direction (two clockwise, two counterclockwise), which is essential for stable flight. 
 
-### Propellers 
+### 🪶Propellers🪶
 
 The propellers are also matched to the motors, we learned that installing a propeller in the wrong direction would make the drone unable to lift off, so this detail is more important than it seems 
 
-### ESCs (Electronic speed controllers)  
+### 📟ESCs (Electronic speed controllers)📟  
 
 ESCs are small electronic boards that control how fast each motor spins. 
 
 They receive commands from the flight controller and adjust the motor speed instantly to keep the drone stable.  
 
-### Power System 
+### ⚡Power System⚡
 
 The drone is powered by a LiPo battery. 
 
@@ -56,7 +56,7 @@ These batteries are lightweight and can deliver high current (usually 4S {14.8V}
 
 The battery is mounted under the frame using straps, and it connects to the power distirbution board that sends power to the ESCs and the flight controller. 
 
-### Autopilot 
+### 🧠Autopilot🧠 
 
 This is basically the brain of the drone. 
 
@@ -79,12 +79,13 @@ This controller is mounted on vibration-damping foam or rubber to reduce noise f
 The flight controller reads all these sensors and constantly adjusts the motors to keep the drone stable.  
 It also receives commands from the pilot and executes them. 
 
-### Navigation & Sensors 
+### 📍Navigation & Sensors📍 
 
 The GPS module is mounted on a small mast to reduce interference from electronics. 
 It provides positions, altitude, and heading. 
-Telemetry is done through a radio module that sends real-time data to QGroundControl.  
-### Raspberry Pi Integration (Optional) 
+Telemetry is done through a radio module that sends real-time data to QGroundControl. 
+
+### 🐍Raspberry Pi Integration (Optional)🐍 
 
 This project also introduced the possibility of using a Raspberry Pi as a Companion computer. 
 
@@ -96,7 +97,7 @@ This allows more advanced tasks like:
 
 During the project we had to deal with some missing or broken components which had unfortunately made the process of assembly longer than expected.
 
-## Radio Control
+## 🎮Radio Control🎮
 
 The central focus of this step in the project was to configure the radio controls allowing the Transversal Drone to be able to fly. Below is a list of all the required elements that were used in this step.
 
@@ -104,12 +105,12 @@ The radio used to pilot the drone utilizes up to 24 channels that are multiplexe
 
 In order to configure the radio to achieve this end, the OpenTX software was used, allowing the group to create a model associating actuator inputs from the radio to a desired radio channel. Once the model was created, the motors and servo were connected to power to test that the setup was successful and that all of the inputs from the radio corresponded to the correct outputs.
 
-## 📦Unboxing the Hexsoon EDU450📦
+## 📂Unboxing the Hexsoon EDU450📂
 
 # Introduction
 This was our first hands-on session with the drone we will assemble and fly during the transversal project. Unboxing the Hexsoon EDU450 made everything feel more real. Seeing the actual components helped us understand how the drone is built and how each part fits into the final system.
 
-# 📂What was inside the Box📂 
+# 📦What was inside the Box📦 
 When we open the box, everything needed to fly a drone was there, from the fiber plates and the motors to the arms and screws, we took our time to go through each item carefully.
 
 inside was:
@@ -151,19 +152,19 @@ The motors felt solid, and the propellers were clearly marked for rotation direc
 # 🧰Component Inspection🧰
 Before touching anything, we inspected each part slowly to understand what we were dealing with.
 
-## Motors
+## ⚙️Motors⚙️
 All four motors looked identical, but we noticed later the rotation direction that would matter later for the assembly.
 
-## Propellers
+## 🪶Propellers🪶
 The propellers came in CW and CCW pairs. We made sure not to mix them.
 
-## ESCs
+## 📟ESCs📟
 The ESCs were small and lightweight. We realized they would be hidden inside the arms, which made cable routing important.
 
-## Frame Plates
+## 🧱Frame Plates🧱
 The plates had precise holes and clean edges. We checked them for any cracks or defects.
 
-## PDB
+## 🔗PDB🔗
 The PDB‑40A had multiple outputs and solder pads. It looked intimidating at first, but everything was in good condition.
 
 # 🔌Quick Pre‑Assembly Check🔌
@@ -180,7 +181,7 @@ Unboxing the EDU450 was more interesting than we expected. Seeing the real compo
 
 This step also taught us how important organization is. If we mixed up screws or didn’t understand how the ESCs fit inside the arms, assembly would be much harder. After unboxing, we felt more confident and ready for the next steps: frame assembly, wiring, and sensor calibration.
 
-## Frame Assembly (Part 1)
+## 🛠️Frame Assembly (Part 1)🛠️
 
 The main objective of this step of the transversal drone project was to assemble the frame and main flying elements of the drone our group will utilize going forward. 
 
@@ -192,7 +193,7 @@ The assembly of the drone frame wasn’t particularly complicated, however, ther
 
 In the end, the first part of the drone frame assembly was completed without issue, and the assembly of the drone frame would continue in the second part focusing more on guidance and power systems.
 
-## Autopilot Configuration and Calibration
+## 🧠Autopilot Configuration and Calibration🧠
 
 In this activity, we worked with the Pixhawk Orange Cube autopilot to learn how it works and how to prepare it for the drone project.
 
@@ -244,7 +245,7 @@ https://www.youtube.com/watch?v=PNEuuCZnhX0&feature=youtu.be
 
 Overall, this activity helped us understand the basic configuration and calibration process of the Pixhawk Orange Cube.
 
-## Frame Assembly (Part 2)
+## 🛠️Frame Assembly (Part 2)🛠️
 
 The aim of the second part of the frame assembly of the Transversal Project Drone was to finalize the assembly of the drone frame by placing and incorporating the radio receiver, autopilot system, GPS, optical sensor, telemetry radio, and the power supply while ensuring everything is properly connected and integrated. The result of this was a drone that after some final calibrations and some software configuration would be able to begin its maiden flight. 
 
@@ -254,7 +255,7 @@ After that, the next devices to connect were the four DC motors to the input por
 
 The last element that was incorporated was the battery. A setup of two Velcro straps was used to hang the large battery on the underside of the central body of the drone in a manner that facilitated the connection of the power supply to the rest of the systems on the drone. With all the basic elements of the drone assembled, it was time to move on to further calibrations of the drone.
 
-## More Calibrations
+## 🧪More Calibrations🧪
 
 In this activity, we continued configuring the Pixhawk Orange Cube to prepare the drone for its first flight test.
 
@@ -299,7 +300,7 @@ https://www.youtube.com/watch?v=Af_ygwTi_s0
 It's important to check the battery level before each flight, making sure that every battery cell has a sufficient charge.
 Now that we completed succesfully all test, we are ready to fly.
 
-## Simulator, Geofences and Mission Planning 
+## 🗺️Simulator, Geofences and Mission Planning🗺️
 
 We explored some of the main tools available in Mission Planner to prepare and test drone flights before operating the real platform.
 First, we learned about the SITL (Software In The Loop) simulator, which allows us to simulate the behaviour of the autopilot without using the physical drone. This is useful for testing flight plans and understanding how the drone is expected to behave before carrying out an actual flight.
@@ -314,7 +315,7 @@ https://www.youtube.com/watch?v=g-UfZ4gamq8
 
 Overall, this activity helped us understand how to plan autonomous flights and use simulation and geofencing tools to improve flight preparation and safety. 
 
-## Flight in the drone lab
+## 🚁Flight in the drone lab🚁
 
 Now everything is ready to start the flight, we go to the drone center and first we do just a fast flight, to make sure that it flies. Before flying one of the compasses wasn't responding, lucky for us, we had 2 and the other one was working correcly.
 
@@ -330,7 +331,7 @@ This day we had problems that made us unable to us our computers/ground station 
 
 The last we made was uploading a mission plan so the drone does it automatically. But we didn't do that yet, we just had a demostration from another group.
 
-## Personal reflection Phase 1
+## 📘Personal reflection Phase 1📘
 
 In this phase we learned the basics on building a drone, the importance on location sensors and how the ground station (computer) comunicates with the drone. We also learned the importante in some configurations and the meaning of some values or modes. 
 
@@ -338,7 +339,7 @@ During the project we had some problems to follow correctly since most component
 
 At the end we manage to follow the tutorials and each step to a successfull flight. 
 
-## Considerations for phase 2
+## 🤖Considerations for phase 2🤖
 
 During phase 2 we gonna install and use a camera. Most of the second part of phase 2 we gonna use what we are learning in Payload, from the basic OpenCV image manipulation to Color-based object detection, in the near future we will know more things that we will learn in Payload that will be applied in the project like image stitching.
 
