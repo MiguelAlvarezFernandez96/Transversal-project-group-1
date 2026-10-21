@@ -1,6 +1,6 @@
 # Transversal Drone Project (GROUP 1)
 Transversal project from group 1. Project made at EETAC as part of the master of drones.
-This groups is composed by Miguel Alvarez Fernandez, Aidan Cuadra Madrid, and  Marawan.
+This groups is composed by Miguel Alvarez Fernandez, Aidan Cuadra Madrid, and  Marawan El Mozy.
 
 <img src="Fotos%20Transversal%20project/Drone_Main.jpeg" alt="Drone_Main" width="500">
 
