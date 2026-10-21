@@ -94,7 +94,7 @@ This allows more advanced tasks like:
 * Data logging 
 * Custom scripts 
 
-During the project we had to deal with some missing or broken components that we had to wait for the professor to change them. 
+During the project we had to deal with some missing or broken components which had unfortunately made the process of assembly longer than expected.
 
 ## Radio Control
 
@@ -102,7 +102,7 @@ The central focus of this step in the project was to configure the radio control
 
 The radio used to pilot the drone utilizes up to 24 channels that are multiplexed using flexible division multiplexing technique. The radio’s actuators can vary the signals emitted by a certain channel. The drone’s radio receiver picks up on the signals from different channels and converts them into PWM signals which then becomes the output of the receiver onto the associated channel. These PWM signals are necessary for the drone to be able to operate the drone’s brushless DC motors where the corresponding width’s of these signals will determine the rotational velocity of the motors at distinct time intervals.
 
-In order to configure the radio to achieve this end, the OpenTX software was used, allowing the group to create a model associating actuator inputs from the radio to a desired radio channel. …
+In order to configure the radio to achieve this end, the OpenTX software was used, allowing the group to create a model associating actuator inputs from the radio to a desired radio channel. Once the model was created, the motors and servo were connected to power to test that the setup was successful and that all of the inputs from the radio corresponded to the correct outputs.
 
 ## 📦Unboxing the Hexsoon EDU450📦
 
